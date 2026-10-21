@@ -3,35 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohamed Ali Boualleg | CV</title>
+    <title>Mohamed Ali Boualleg | CV – Étudiant en informatique</title>
+    <meta name="description" content="CV de Mohamed Ali Boualleg, étudiant en informatique à l'ISET Radès : développement web, Java/C++, IoT (Arduino, ESP32)." />
+    <meta name="author" content="Mohamed Ali Boualleg" />
+    <meta name="theme-color" content="#1f2a3c" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Mohamed Ali Boualleg | CV" />
+    <meta property="og:description" content="Étudiant en informatique à l'ISET Radès · Web · Programmation · IoT" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231f2a3c'/><text x='50' y='66' font-size='46' font-family='Georgia' font-weight='bold' fill='white' text-anchor='middle'>MB</text></svg>" />
+
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Extra design layer: style.css stays untouched -->
+
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohamed Ali Boualleg",
+        "jobTitle": "Étudiant en informatique",
+        "email": "mailto:mohamedaliboualeg4@gmail.com",
+        "telephone": "+21627965184",
+        "address": { "@type": "PostalAddress", "streetAddress": "04, Rue de Kondar", "addressLocality": "Radès", "addressRegion": "Tunis", "addressCountry": "TN" },
+        "alumniOf": [ { "@type": "CollegeOrUniversity", "name": "ISET Radès" }, { "@type": "HighSchool", "name": "Lycée de Radès" } ],
+        "sameAs": [ "https://github.com/mohamedaliboualleg4656-dotcom" ]
+      }
+    </script>
   </head>
   <body>
+    <button class="pdf-btn" onclick="window.print()">⬇ Télécharger en PDF</button>
+
     <main class="cv">
       <aside class="side">
-        <div class="avatar"> <img src="Kylian Dictator.jfif" alt=""></div>
+        <div class="avatar"><img src="Kylian Dictator.jfif" alt="Photo de Mohamed Ali Boualleg" /></div>
 
         <section>
           <h2>Contact</h2>
           <ul class="plain">
-            <li>mohamedaliboualeg4@gmail.com</li>
-            <li>
-              04,Rue de kondar<br />
-              Rades,Tunis
-            </li>
+            <li><a href="mailto:mohamedaliboualeg4@gmail.com">✉ mohamedaliboualeg4@gmail.com</a></li>
+            <li><a href="tel:+21627965184">☎ +216 27 965 184</a></li>
+            <li>⌂ 04, Rue de Kondar<br />&nbsp;&nbsp;&nbsp;Radès, Tunis</li>
           </ul>
         </section>
         <hr />
 
         <section>
+          <h2>Liens</h2>
+          <a class="btn" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">in &nbsp;LinkedIn ↗</a>
+          <a class="btn" href="https://github.com/mohamedaliboualleg4656-dotcom" target="_blank" rel="noopener noreferrer">⌥ &nbsp;GitHub ↗</a>
+        </section>
+        <hr />
+
+        <section>
+          <h2>Informations</h2>
           <ul class="plain">
-            <li>Tél:27965184</li>
-            <li></li>
-            <li>Né le 04/09/2005</li>
-            <li></li>
-            <li>21 ans</li>
-            <li></li>
+            <li>Né le 04/09/2005 (21 ans)</li>
             <li>Célibataire</li>
+          </ul>
+        </section>
+        <hr />
+
+        <section>
+          <h2>Centres d'intérêt</h2>
+          <ul class="plain pills">
+            <li>Web</li>
+            <li>Réseaux</li>
+            <li>IoT</li>
+            <li>Nouvelles technologies</li>
           </ul>
         </section>
       </aside>
@@ -39,8 +78,15 @@
       <div class="body">
         <header>
           <h1>Mohamed Ali Boualleg</h1>
-          <p class="role">Étudiant en informatique SEM</p>
+          <p class="role">Étudiant en informatique SEM · ISET Radès</p>
+          <span class="status">Ouvert aux projets innovants</span>
         </header>
+
+        <div class="facts">
+          <div><strong>ISET Radès</strong>Technologie d'Informatique</div>
+          <div><strong>Web · Java · IoT</strong>Domaines de travail</div>
+          <div><strong>Radès, Tunis</strong>Tunisie</div>
+        </div>
 
         <section>
           <h2>Profil</h2>
@@ -62,24 +108,44 @@
             </div>
           </div>
           <div class="entry">
-                <span class="date">2023 - 2024</span>
-                <div>
-                  <h3> Lycée de Rades</h3>
-                  <p>Baccalauréat — Section : Sciences d'Informatique</p>
-                </div>
-              </div></span>
+            <span class="date">2023 – 2024</span>
             <div>
+              <h3>Lycée de Radès</h3>
+              <p>Baccalauréat — Section : Sciences d'Informatique</p>
+            </div>
+          </div>
         </section>
 
         <section>
           <h2>Domaines de compétences</h2>
           <dl class="skills">
             <dt>Web</dt>
-            <dd>HTML, CSS et développement de sites web.</dd>
+            <dd>
+              <div class="chips">
+                <a class="chip" href="https://www.google.com/search?q=HTML+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que HTML ?">HTML</a>
+                <a class="chip" href="https://www.google.com/search?q=CSS+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que CSS ?">CSS</a>
+              </div>
+              HTML, CSS et développement de sites web.
+            </dd>
             <dt>Programmation</dt>
-            <dd>Java, C/C++ et programmation orientée objet.</dd>
+            <dd>
+              <div class="chips">
+                <a class="chip" href="https://www.google.com/search?q=Java+langage+de+programmation+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que Java ?">Java</a>
+                <a class="chip" href="https://www.google.com/search?q=langage+C+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que le langage C ?">C</a>
+                <a class="chip" href="https://www.google.com/search?q=C%2B%2B+langage+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que C++ ?">C++</a>
+                <a class="chip" href="https://www.google.com/search?q=programmation+orient%C3%A9e+objet+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que la POO ?">POO</a>
+              </div>
+              Java, C/C++ et programmation orientée objet.
+            </dd>
             <dt>IoT</dt>
-            <dd>Arduino, ESP32, capteurs et systèmes connectés.</dd>
+            <dd>
+              <div class="chips">
+                <a class="chip" href="https://www.google.com/search?q=Arduino+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce qu'Arduino ?">Arduino</a>
+                <a class="chip" href="https://www.google.com/search?q=ESP32+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce que l'ESP32 ?">ESP32</a>
+                <a class="chip" href="https://www.google.com/search?q=capteurs+IoT+c%27est+quoi" target="_blank" rel="noopener noreferrer" title="Qu'est-ce qu'un capteur IoT ?">Capteurs</a>
+              </div>
+              Arduino, ESP32, capteurs et systèmes connectés.
+            </dd>
           </dl>
         </section>
       </div>
